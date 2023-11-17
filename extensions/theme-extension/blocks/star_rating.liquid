@@ -1,0 +1,47 @@
+
+<div class="bar">
+  <div class="bar-center">
+      <p class="p-text">Test Text</p>
+      <button class="bar-b">Button</button>
+  </div>
+</div>
+
+<style>
+    .bar {
+      background: #3498db; 
+      padding: 10px; 
+      position: relative; 
+    }
+
+    .bar-center {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .p-text {
+      color: #ffffff; 
+      font-size: 14px; 
+      font-weight: 500; 
+    }
+
+    .bar-b {
+      background: #2ecc71; 
+      color: #ffffff; 
+      text-align: center; 
+      border-radius: 5px; 
+      padding: 8px 16px; 
+      border: none; 
+      cursor: pointer; 
+    }
+  </style>
+
+{% schema %}
+{
+  "name": "Announced Bar",
+  "target": "section",
+  "settings": [
+  ]
+}
+{% endschema %}
+
